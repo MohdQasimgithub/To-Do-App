@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+input{
+    padding: 1.1rem;
+    border: none;
+    border: 1px solid rgb(184, 182, 182);
+    border-radius: 5px;
+    text-align: left;
+    
+}
+button{
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    
+}
+.container{
+    margin: 30px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-items{
+    display: grid;
+    grid-template-columns: 300px 150px 100px;
+    row-gap: 10px;
+    column-gap: 20px;
+     align-items: center;
+    justify-content: center; 
+  text-align: center;
+
+}
+.event{
+    display: grid;
+    grid-template-columns: 300px 150px 100px;
+    row-gap: 10px;
+    column-gap: 20px;
+     align-items: center;
+    justify-content: center; 
+  text-align: center;
+    
+}
+#del{
+    background-color: maroon;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.newElement{
+    text-align: left;
+}
